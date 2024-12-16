@@ -1,0 +1,234 @@
+/* Reset margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Prevent overflow on body and html */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Optional: Apply a specific font style to the heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, sans-serif;
+}
+
+/* Background styling */
+#background-div {
+  background-image: url(../public/images/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 60px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+/* Authentication container styling */
+.auth-container {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  height: max-content;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Form group and input styling */
+.form-group label {
+  display: block;
+  margin-bottom: 1px;
+  font-size: 15px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 15px;
+  border-color: #4a91e26d;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 15px;
+  border-color: #4a91e26d;
+}
+
+
+
+#loginButton,
+#btnRegister {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Centering the heading */
+h2 {
+  text-align: center;
+  margin-bottom: 1px;
+  color: #333;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+/* Mobile responsiveness for smaller screens */
+@media only screen and (max-width: 600px) {
+  .auth-container {
+    padding: 10px;
+  }
+
+  input[type="email"],
+  input[type="password"],
+  button {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+/* Navbar styling */
+.navbar-common {
+  background-color: #333;
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the navbar items and reduce the gap */
+.navbar-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.navbar-head {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-li {
+  margin: 0;
+}
+
+.navbar-li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-li a:hover,
+.navbar-li a.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Mobile responsiveness for navbar */
+@media only screen and (max-width: 768px) {
+  .navbar-ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-li {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* Footer Styling */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.footer span {
+  display: inline-block;
+  margin: 5px;
+}
+
+/* Footer links or additional content */
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

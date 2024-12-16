@@ -1,0 +1,75 @@
+.update-user-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.update-user-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+
+.update-user-form-group {
+  margin-bottom: 15px;
+}
+
+.update-user-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.update-user-form-group input,
+.update-user-form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.update-user-form-group input:focus,
+.update-user-form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+.update-user-submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-user-submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.update-user-link {
+  display: inline-block;
+  margin-top: 15px;
+  text-align: center;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.update-user-link:hover {
+  text-decoration: none;
+}

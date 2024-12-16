@@ -1,0 +1,173 @@
+.view-product-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.product-content {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.left-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image-view {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.right-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.add-review {
+  margin-top: 20px;
+}
+
+.add-review h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.star-rating span {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #ffc107;
+}
+
+.star-rating span.empty {
+  color: #ddd;
+}
+
+.review-textbox {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.submit-review-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.submit-review-button:hover {
+  background-color: #0056b3;
+}
+
+.existing-reviews {
+  margin-top: 30px;
+}
+
+.other-reviews {
+  margin-top: 15px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.review-card {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-header .buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.edit-button,
+.delete-button {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.edit-button:hover {
+  background-color: #e0a800;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.review-rating span {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.review-rating span.filled {
+  color: #ffc107;
+}
