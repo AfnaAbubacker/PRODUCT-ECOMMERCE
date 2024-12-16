@@ -74,35 +74,35 @@ CREATE DATABASE product_management;
 
 #### REGISTRATION INTERFACE
 - If you are a new user/admin, then register using the following details.
-![Register page](assets/register.png)
+![Register page](Assets/register.png)
 
 
 ## ADMIN SECTION
 #### ADMIN PRODUCT ADD SECTION
 - This page is authorized for admin only. Admin can only add new product.
-![Add product](assets/productadd.png)
+![Add product](Assets/productadd.png)
 
 
 #### PRODUCT LIST 
 - This page is where all the products are displayed for admin/user.
-![Product List](assets/productlist.png)
+![Product List](Assets/productlist.png)
 
 #### PRODUCT MANANGEMENT 
 - This page allows the admin to edit or delete products as needed.
-![Product Manage](assets/productmanage.png)
+![Product Manage](Assets/productmanage.png)
 
 #### REVIEW/RATING 
 - This page allows to add reviews and rating for the selected product.
-![Product Review](assets/productreview.png)
+![Product Review](Assets/productreview.png)
 
 ## USER SECTION
 #### USER PRODUCT LIST VIEW 
 - This page is where all the products are displayed.
-![User Product List](assets/userproductlist.png)
+![User Product List](Assets/userproductlist.png)
 
 #### USER REVIEW/RATING
 - This page is where user can give review and rating accordingly.
-![User Review](assets/userreview.png)
+![User Review](Assets/userreview.png)
 
 
 
