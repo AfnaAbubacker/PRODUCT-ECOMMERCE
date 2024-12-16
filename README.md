@@ -68,7 +68,8 @@ CREATE DATABASE product_management;
 
 #### LOGIN INTERFACE
 - If you have already Registered, then Login using the same email and password.
-![Login page](assets/login.png)
+![Login page](Assets/login.png)
+
 
 
 #### REGISTRATION INTERFACE
