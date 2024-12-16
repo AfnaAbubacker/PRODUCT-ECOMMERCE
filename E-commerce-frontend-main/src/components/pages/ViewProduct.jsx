@@ -128,6 +128,7 @@ function ViewProduct() {
       try {
         await RatingReviewService.deleteReviewRatingById(reviewId);
         alert('Review deleted successfully');
+        navigate(0);
         checkIfReviewExists(prodId, userId);
       } catch (error) {
         console.error('Error deleting review:', error);
